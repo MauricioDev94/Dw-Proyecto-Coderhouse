@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Maven+Pro&family=Montserrat:wght@500&family=Prompt:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    color: rgb(208, 9, 132);
+    transition: 1s;
+}
+
+ul{
+    list-style: none;
+}
+
+body, html{
+    overflow-x: hidden;
+}

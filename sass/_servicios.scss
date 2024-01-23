@@ -1,0 +1,46 @@
+.section-de-cards{
+    background-image: url(../img/banner-3.jpg);
+    background-size:auto;
+    margin: 50px 10px;
+
+    .titulo{
+        text-align: center;
+        padding-top: 50px;
+        font-size: 45px;
+    }
+    .servicios{
+        margin: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 70px; 
+        text-align: center;
+
+        .card{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            margin:20px;
+            padding-bottom:25px;
+            border-radius: 10px;
+            cursor: pointer;
+            opacity: 0.8;
+
+            .icon{
+                font-size: 35px;
+                margin-bottom: 10px;
+            }
+            .card h2{
+                font-size: 25px;
+                margin-bottom: 20px;
+            }
+            .card p{
+                font-size: 18px;
+                margin-bottom: 30px;
+                color: #000000;
+            }
+        }
+    }
+}
